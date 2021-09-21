@@ -1,5 +1,5 @@
 #define _CRT_SECURE_NO_WARNINGS
-#include "source.h"
+#include "function.h"
 
 void Command() {
     printf("\nChoose the number of a command: \n");
@@ -656,15 +656,15 @@ void del_s() {
 //
 void ut_m() {
     struct Inform inform;
-    struct Categories currentÑategory;
+    struct Categories currentÃ‘ategory;
     inform = collectInformation();
 
     printf("ALL Categories:\n");
     FILE* categoriesFile = fopen("categories.fl", "r+b");
     for (int i = 0; i < inform.idInsertedCategories; i++) {
-        fread(&currentÑategory, sizeof(struct Categories), 1, categoriesFile);
-        if (currentÑategory.isExist)
-            printCategory(currentÑategory);
+        fread(&currentÃ‘ategory, sizeof(struct Categories), 1, categoriesFile);
+        if (currentÃ‘ategory.isExist)
+            printCategory(currentÃ‘ategory);
     }
 
     fclose(categoriesFile);
