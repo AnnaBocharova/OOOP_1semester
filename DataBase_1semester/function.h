@@ -67,8 +67,7 @@ void outputTheDish(const struct Dish dish);
 struct Dish* getArrayOfDish(const struct Inform inform);
 void updateDishFile(struct Inform inform, struct Dish* arrayOfProducts);
 struct Dish* getArrayOfSlavesDish(struct Categories category);
-void deleteLastOneProduct(struct Inform inform, struct Categories category);
-void deleteLastProduct(struct Inform inform, struct Categories category);
+
 
 void insert_m();
 void insert_s();
@@ -84,5 +83,4 @@ void ut_s();
 void clearAllFiles();
 void outputCategoriesIndex();
 void outputDishesFile();
-int binarySearchIndex(int left, int right, int neededIndex, struct IndexCategories* arrayOfIndexTrucks);
 int chooseIndexOfIdCategories(struct Inform Inform);
