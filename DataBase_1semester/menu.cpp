@@ -4,14 +4,12 @@
 #include "function.h"
 
 int main() {
-   // checkInformFile();
-   // outputInformFromFile();
-    
+   
     int command;
     bool flag = true;
     struct Categories category;
     struct Dish dish;
-   ////clearAllFiles();
+
    
     while (flag) {
         Command();
