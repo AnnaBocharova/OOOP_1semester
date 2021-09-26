@@ -351,7 +351,7 @@ void outputInformFromFile() {
 
 //_______________________MAIN FUNCTIONS______________________________________//
 
-//-----------------------Main command---------------------------------//
+
 void insert_m() {
     struct Inform inform;
     inform = collectInformation();
